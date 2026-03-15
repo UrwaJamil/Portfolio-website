@@ -255,18 +255,13 @@ span {
 @keyframes words {
 
     0%,
-    33% {
+    50% {
         content: "Python Developer";
     }
 
-    33.001%,
-    66% {
-        content: "Software Developer";
-    }
-
-    66.001%,
+    50.001%,
     100% {
-        content: "AI | ML Enthusiast";
+        content: "Software Developer";
     }
 }
 
@@ -276,43 +271,23 @@ span {
         width: calc(100% + var(--gap));
     }
 
-    12% {
-        width: 0;
-    }
-
-    22% {
+    17% {
         width: 0;
     }
 
     33% {
-        width: calc(100% + var(--gap));
-    }
-
-    33% {
-        width: calc(100% + var(--gap));
-    }
-
-    45% {
         width: 0;
     }
 
-    55% {
-        width: 0;
-    }
-
-    66% {
+    50% {
         width: calc(100% + var(--gap));
     }
 
-    66% {
-        width: calc(100% + var(--gap));
-    }
-
-    78% {
+    67% {
         width: 0;
     }
 
-    88% {
+    83% {
         width: 0;
     }
 
